@@ -1,8 +1,7 @@
 from MergeSort import MergeSort
+from quicksort import quicksort
 def main():
-    sortingObject = MergeSort([5, 4, 3, 2, 1])
-    sortingObject.mergeSort()
+    sortingObject = quicksort([3,3,3,1])
+    sortingObject.quicksort()
     sortingObject.print_array()
-
-
 main()
